@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Poppins, sans-serif;
+    color: whitesmoke;
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 40px;
+}
+h1 i {
+    color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.news-desc {
+  width: 420px; 
+  padding: 10px;
+}
+.description {
+    padding: 10px 0px;
+}
+.title-image {
+  /* width: 350px; */
+/* width: 700px; */
+  height: 200px;
+ /* height: 400px; */
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+h2 {
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+}
+p {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+}
+.readmore {
+  font-size: 15px;
+  text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: rgb(169, 181, 188);
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
