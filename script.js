@@ -3,7 +3,7 @@ function generateImages() {
 }
 
 function generateNews() {
-  const apiKey = "d6a762aa477e4fb7aea0d788bcd8170e";
+  const apiKey = "";
 
   fetch(`https://newsapi.org/v2/everything?q=bitcoin&apiKey=${apiKey}`)
     .then((response) => response.json())
